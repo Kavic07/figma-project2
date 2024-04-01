@@ -1,0 +1,11 @@
+.footer-section {
+  text-align: center;
+  padding-top: 7em;
+  padding-bottom: 4em;
+}
+.footer-img {
+  padding-bottom: 1em;
+}
+.footer-img > img {
+  padding-right: 1.5em;
+}

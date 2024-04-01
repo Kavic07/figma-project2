@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 8em;
+  max-width: 900px;
+  margin: auto;
+}
+.herosec-content {
+  /* width: 450px; */
+  padding-right: 10em;
+}
+.herosec-content > h2 {
+  font-family: Heebo;
+  font-size: 44px;
+  line-height: 45px;
+}
+.herosec-content > p {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 2em;
+}
+.herosec-content > .btn {
+  background: #ff6464;
+  color: white;
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 500;
+  width: 208px;
+  height: 47px;
+  border: 0px;
+  border-radius: 2px;
+  margin-bottom: 5em;
+}
+.herosec-img {
+  min-width: 220px;
+  min-height: 220px;
+  /* overflow: hidden; */
+}
+.herosec-img > img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+/* media query starts here */
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+  }
+  .herosec-content {
+    padding-right: 0;
+    text-align: center;
+  }
+}

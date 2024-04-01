@@ -1,0 +1,103 @@
+.register-container {
+  /* max-width: 900px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-image > img {
+  width: 8rem;
+}
+.form-content > h1 {
+  font-size: 1.8em;
+  font-family: Heebo;
+  font-weight: 900;
+}
+.form-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 80%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.form-heading > p {
+  text-align: center;
+  line-height: 1;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-family: Heebo;
+  color: gray;
+}
+.line {
+  width: 30%;
+}
+form {
+  max-width: 20rem;
+  margin-bottom: 3rem;
+}
+.input-content {
+  width: 100%;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-bottom: 2em;
+  border-radius: 0.5rem;
+  border-color: #e2e8f0;
+  background-color: #f7fafc;
+  color: gray;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+#input-field {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+#input-field > img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.file-img::file-selector-button {
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 9999px;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background-color: #edf2f7;
+  color: #805ad5;
+}
+button {
+  width: 100%;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2em;
+  border-radius: 0.5rem;
+  border-color: #4f46e5;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: 900;
+}
+button:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+form > p {
+  font-family: Heebo;
+  font-weight: 600;
+  color: gray;
+}
+form > p > a {
+  color: gray;
+  text-decoration: dashed;
+}

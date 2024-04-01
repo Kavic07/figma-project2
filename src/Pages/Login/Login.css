@@ -1,0 +1,38 @@
+.login-container {
+  /* background-color: gainsboro; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+#input-content {
+  width: 100%;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-bottom: 0.4em;
+  border-radius: 0.5rem;
+  border-color: #e2e8f0;
+  background-color: #f7fafc;
+  color: gray;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+.forgot-pass {
+  padding-left: 8.7em;
+  text-decoration: none;
+  font-weight: 600;
+}
+.login-container > button {
+  width: 40%;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 0.5rem;
+  border-color: #4f46e5;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: 900;
+}
+#signup {
+  font-weight: 600;
+  text-decoration: none;
+}

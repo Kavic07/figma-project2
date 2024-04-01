@@ -1,0 +1,21 @@
+.work-navbar {
+  margin-top: 1.5em;
+}
+.works-page-container > h2 {
+  width: 156px;
+  height: 69px;
+  font-family: Heebo;
+  font-size: 44px;
+  font-weight: 900;
+  color: #21243d;
+  margin-left: 5em;
+  margin-top: 2.5em;
+}
+/* Media query starts here */
+@media screen and (max-width: 480px) {
+  .works-page-container > h2 {
+    font-size: 33px;
+    margin-left: 0.5em;
+    margin-top: 0.8em;
+  }
+}
