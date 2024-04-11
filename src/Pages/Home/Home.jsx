@@ -4,6 +4,8 @@ import Featuredworks from "../../Components/Featuredworks/Featuredworks";
 import Footer from "../../Components/Footer/Footer";
 import "./Home.css";
 import { useAuth } from "../../contextAPI/AuthProvider";
+import Register from "../Register/Register";
+import Login from "../Login/Login";
 
 const Home = () => {
   const { user } = useAuth();
@@ -36,6 +38,9 @@ const Home = () => {
       <Recentpost />
       <Featuredworks />
       <Footer />
+      <Register />
+      <Login />
+      ``
     </>
   );
 };

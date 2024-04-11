@@ -42,6 +42,8 @@ function App() {
 
     if (token) {
       fetchData();
+    } else {
+      fetchData(false);
     }
   }, [token]);
 
