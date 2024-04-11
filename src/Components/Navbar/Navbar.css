@@ -5,6 +5,22 @@ nav > ul {
   display: flex;
   justify-content: end;
 }
+nav > ul > span {
+  margin-right: 62em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  border: 1px solid #ff6464;
+  background-color: #ff6464;
+  border-radius: 5px;
+}
+nav ul span li {
+  list-style-type: none;
+}
+nav ul span li a {
+  text-decoration: none;
+  font-family: Heebo;
+  color: white;
+}
 nav > ul > li {
   padding-right: 2em;
   list-style-type: none;

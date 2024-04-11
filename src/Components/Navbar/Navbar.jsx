@@ -17,6 +17,11 @@ const Navbar = () => {
           <div className={isNavbarVisible ? "bar open" : "bar"}></div>
         </div>
         <ul className={isNavbarVisible ? "show" : ""}>
+          <span>
+            <li>
+              <Link to="/Register">Register/Login</Link>
+            </li>
+          </span>
           <li>
             <Link to="/">Home</Link>
           </li>
