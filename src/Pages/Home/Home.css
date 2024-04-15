@@ -54,5 +54,6 @@
   .herosec-content {
     padding-right: 0;
     text-align: center;
+    /* width: 300px; */
   }
 }

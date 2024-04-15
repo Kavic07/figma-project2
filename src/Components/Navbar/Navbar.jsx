@@ -19,7 +19,9 @@ const Navbar = () => {
         <ul className={isNavbarVisible ? "show" : ""}>
           <span>
             <li>
-              <Link to="/Register">Register/Login</Link>
+              <Link to="/Register" target="_blank">
+                Register/Login
+              </Link>
             </li>
           </span>
           <li>
